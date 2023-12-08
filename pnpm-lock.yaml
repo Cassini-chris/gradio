@@ -1260,20 +1260,20 @@ importers:
         specifier: ^0.15.3
         version: 0.15.3(svelte@4.2.3)
 
-  js/preview/test/frontend:
+  js/preview/test/test/frontend:
     dependencies:
       '@gradio/atoms':
         specifier: 0.3.1
-        version: link:../../../atoms
-      '@gradio/icons':
-        specifier: 0.3.1
-        version: link:../../../icons
+        version: link:../../../../atoms
       '@gradio/statustracker':
         specifier: 0.4.1
-        version: link:../../../statustracker
+        version: link:../../../../statustracker
       '@gradio/utils':
         specifier: 0.2.0
-        version: link:../../../utils
+        version: link:../../../../utils
+      '@zerodevx/svelte-json-view':
+        specifier: ^1.0.7
+        version: 1.0.7(svelte@4.2.3)
 
   js/radio:
     dependencies:
