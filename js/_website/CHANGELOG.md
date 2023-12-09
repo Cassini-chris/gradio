@@ -1,5 +1,11 @@
 # website
 
+## 0.20.0
+
+### Features
+
+- [#6679](https://github.com/gradio-app/gradio/pull/6679) [`abe9785`](https://github.com/gradio-app/gradio/commit/abe9785c50cf3d1098605326c92a1825ae89df14) - Remove Discourse Forum Link from Website.  Thanks [@aliabd](https://github.com/aliabd)!
+
 ## 0.19.0
 
 ### Features

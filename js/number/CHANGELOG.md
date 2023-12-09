@@ -1,5 +1,13 @@
 # @gradio/number
 
+## 0.3.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @gradio/atoms@0.3.2
+  - @gradio/statustracker@0.4.2
+
 ## 0.3.4
 
 ### Patch Changes

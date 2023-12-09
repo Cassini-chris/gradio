@@ -1,5 +1,11 @@
 # @gradio/fileexplorer
 
+## 0.3.10
+
+### Fixes
+
+- [#6691](https://github.com/gradio-app/gradio/pull/6691) [`128ab5d`](https://github.com/gradio-app/gradio/commit/128ab5d65b51390e706a515a1708fe6c88659209) - Ensure checked files persist after FileExplorer rerenders.  Thanks [@hannahblair](https://github.com/hannahblair)!
+
 ## 0.3.9
 
 ### Fixes

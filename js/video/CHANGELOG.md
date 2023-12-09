@@ -1,5 +1,11 @@
 # @gradio/video
 
+## 0.1.10
+
+### Fixes
+
+- [#6698](https://github.com/gradio-app/gradio/pull/6698) [`798eca5`](https://github.com/gradio-app/gradio/commit/798eca524d44289c536c47eec7c4fdce9fe81905) - Fit video media within Video component.  Thanks [@hannahblair](https://github.com/hannahblair)!
+
 ## 0.1.9
 
 ### Fixes
