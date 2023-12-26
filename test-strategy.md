@@ -39,21 +39,21 @@ Our tests will broadly fall into one of three categories:
 
 Static quality checks are generally very fast to run and do not require building the code base. They also provide the least value. These tests would be things like linting, typechecking, and formatting.
 
-While they offer little in terms of testing functionality they align very closely with objective (4, 5) as they generally help to keep the codebase in good shape and offer very fast feedback. Such check are almost free from an authoring point of view as fixes can be mostly automated (either via scripts or editor integrations).
+While they offer little in terms of testing functionality they align very closely with objective (4, 5) as they generally help to keep the codebase in good shape and offer very fast feedback. Such checks are almost free from an authoring point of view as fixes can be mostly automated (either via scripts or editor integrations).
 
 ### Dynamic code tests
 
 These tests generally test either isolated pieces of code or test the relationship between parts of the code base. They sometimes test functionality or give indications of working functionality but never offer enough confidence to rely on them solely.
 
-These test are usually either unit or integration tests. They are generally pretty quick to write (especially unit tests) and run and offer a moderate amount of confidence. They align closely with Objectives 2 and 3 and a little bit of 1.
+These tests are usually either unit or integration tests. They are generally pretty quick to write (especially unit tests) and run and offer a moderate amount of confidence. They align closely with Objectives 2 and 3 and a little bit of 1.
 
-These kind of tests should probably make up the bulk of our handwritten tests.
+These kinds of tests should probably make up the bulk of our handwritten tests.
 
 ### Dynamic functional tests
 
 These tests give by far the most confidence as they are testing only the functionality of the software and do so by running the entire software itself, exactly as a user would.
 
-This aligns very closely with objective 1 but significantly impacts objective 5, as these tests are costly to both write and run. Despite the value, due to the downside we should try to get as much out of other tests types as we can, reserving functional testing for complex use cases and end-to-end journey.
+This aligns very closely with objective 1 but significantly impacts objective 5, as these tests are costly to both write and run. Despite the value, due to the downside we should try to get as much out of other test types as we can, reserving functional testing for complex use cases and end-to-end journey.
 
 Tests in this category could be browser-based end-to-end tests, accessibility tests, or performance tests. They are sometimes called acceptance tests.
 
